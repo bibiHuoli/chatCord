@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>ChatCord App</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1><i class="fa-solid fa-face-smile-beam"></i> ChatCord</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input
+              id="username"
+              name="username"
+              placeholder="Enter Username"
+              type="text"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">Room</label>
+            <select name="room" id="room">
+              <option value="Cobble">Cobblestone</option>
+              <option value="Dust">Dust2</option>
+              <option value="Inferno">Inferno</option>
+              <option value="Mirage">Mirage</option>
+              <option value="Nuke">Nuke</option>
+              <option value="Overpass">Overpass</option>
+              <option value="Train">Train</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">Join Chat</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
